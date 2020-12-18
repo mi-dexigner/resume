@@ -1,0 +1,36 @@
+.heading{
+    background-color: #f9c31c;
+    padding-left: 15px;
+    font-size: 23px;
+    display: inline-block;
+    padding-right: 15px;
+    border-radius: 0px 25px 25px 0px;
+    position: relative;
+    margin-left: -5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    z-index: 5;
+}
+
+.heading:before{
+    content: '';
+    background-color: #da6a27;
+    width: 18px;
+    height: 25px;
+    position: absolute;
+    bottom: -5px;
+    left: -4px;
+    border-radius: 13px;
+    z-index: 1;
+}
+
+.heading:after{
+    content: '';
+    background-color: #f9c31c;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: -4px;
+    border-radius: 20px;
+    transform: skew(0deg, -25deg);
+    z-index: 1;
+}

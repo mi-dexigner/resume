@@ -1,0 +1,44 @@
+.educationWork{
+background-color: #222528;
+padding-top: 15%;
+color: #ffffff;
+position: relative;
+}
+
+.educationWork ul{
+    list-style: none;
+    padding: 20px 25px;
+}
+.educationWork ul li{
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+
+.educationWork ul li:before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #f9c31c;
+    display: block ruby;
+    border-radius: 999px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+
+.educationWork ul li h2{
+    font-size: 12px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.educationWork ul li h2 span{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.educationWork ul li p{
+    font-size: 10px;
+    font-weight: 300;
+}
