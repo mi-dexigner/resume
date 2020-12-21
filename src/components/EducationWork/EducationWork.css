@@ -28,13 +28,13 @@ position: relative;
 }
 
 .educationWork ul li h2{
-    font-size: 12px;
+    font-size: clamp(.5rem, 6vw, 1rem);
     margin-bottom: 6px;
     font-weight: 700;
 }
 
 .educationWork ul li h2 span{
-    font-size: 10px;
+    font-size:  clamp(.2rem, 6vw, 0.8rem);;
     font-weight: 700;
 }
 

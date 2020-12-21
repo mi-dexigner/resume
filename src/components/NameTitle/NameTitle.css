@@ -1,7 +1,9 @@
 header{
     background-color: #f6f6f6;
 }
-header figure{}
+header figure{
+    overflow: hidden;
+}
 header figure img{
     width:100%;
 }
@@ -10,15 +12,15 @@ header article{
 }
 header article h2{
     color: #231f20;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    line-height: 3.4rem;
     text-align: center;
 }
 
 header article h5{
     color: #231f20;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: clamp(1.2rem, 6vw, 1.7rem);
+    line-height: 1.7rem;
     margin-bottom: 10px;
     text-align: center;
 }

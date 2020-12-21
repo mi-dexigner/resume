@@ -1,7 +1,7 @@
 .heading{
     background-color: #f9c31c;
     padding-left: 15px;
-    font-size: 23px;
+    font-size: clamp(1rem, 6vw, 1.7rem);
     display: inline-block;
     padding-right: 15px;
     border-radius: 0px 25px 25px 0px;
