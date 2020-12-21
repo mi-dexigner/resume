@@ -9,16 +9,19 @@ const SkillContact = () => {
             <Heading title="My Skill" />
                 <ul>
                     <li>
-                        <h4 className="bebas-font">Software skills</h4>
+                        <h4 className="rale-font">Software skills</h4>
                     </li>
                     <li>
-                        <h4 className="bebas-font">Personal skills</h4>
+                        <h4 className="rale-font">Personal skills</h4>
                     </li>
                     <li>
-                        <h4 className="bebas-font">LANGUAGES</h4>
+                        <h4 className="rale-font">LANGUAGES</h4>
                     </li>
                     <li>
-                        <h4 className="bebas-font">INTERESTS</h4>
+                        <h4 className="rale-font">INTERESTS</h4>
+                    </li>
+                    <li>
+                        <h4 className="rale-font">Awards</h4>
                     </li>
                 </ul>
             </article>

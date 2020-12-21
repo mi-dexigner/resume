@@ -10,20 +10,10 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     z-index: 5;
 }
-
-.heading:before{
-    content: '';
-    background-color: #da6a27;
-    width: 18px;
-    height: 25px;
-    position: absolute;
-    bottom: -5px;
-    left: -4px;
-    border-radius: 13px;
-    z-index: 1;
+.heading span{
+    display: inline-block;
 }
-
-.heading:after{
+.heading span:before{
     content: '';
     background-color: #f9c31c;
     position: absolute;
@@ -32,5 +22,19 @@
     left: -4px;
     border-radius: 20px;
     transform: skew(0deg, -25deg);
+    z-index: 5;
+    top: 0px;
+}
+.heading span:after{
+    content: '';
+    background-color: #da6a27;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+    border-radius: 13px;
     z-index: 1;
+    
+
 }

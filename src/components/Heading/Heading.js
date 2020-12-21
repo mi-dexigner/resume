@@ -3,7 +3,7 @@ import './Heading.css'
 
 const Heading = ({title}) => {
     return (
-        <h2 className="heading bebas-font">{title}</h2>
+        <h2 className="heading bebas-font"><span></span>{title}</h2>
     )
 }
 
