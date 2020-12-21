@@ -10,18 +10,34 @@ const SkillContact = () => {
             <Heading title="My Skill" />
                 <ul>
                     <li>
-                        <h4 className="rale-font">Software skills</h4>
+                        <h4 className="rale-font">Skills</h4>
                         <ProgressBar title="Adobe Photoshop" completed="75" />
+                        <ProgressBar title="Adobe Illustrator" completed="55" />
+                        <ProgressBar title="HTML5" completed="95" />
+                        <ProgressBar title="CSS3" completed="90" />
+                        <ProgressBar title="JavaScript" completed="60" />
+                        <ProgressBar title="jQuery" completed="65" />
+                        <ProgressBar title="Bootstrap HTML Framework" completed="95" />
+                        <ProgressBar title="WordPress Custom Theme" completed="80" />
+                        <ProgressBar title="PHP" completed="70" />
+                        <ProgressBar title="Python" completed="60" />
+                        <ProgressBar title="Codeigniter" completed="50" />
+                        <ProgressBar title="Shopify Theme" completed="75" />
+                        <ProgressBar title="Flutter" completed="50" />
+                        <ProgressBar title="React" completed="65" />
+                        <ProgressBar title="React Native" completed="60" />
                     </li>
                     <li>
                         <h4 className="rale-font">Personal skills</h4>
+                        <ProgressBar title="Team Work" completed="90" />
+                        <ProgressBar title="Leadership" completed="95" />
                     </li>
-                    <li>
+                    {/*<li>
                         <h4 className="rale-font">LANGUAGES</h4>
                     </li>
                     <li>
                         <h4 className="rale-font">INTERESTS</h4>
-                    </li>
+                    </li>*/}
                    
                 </ul>
             </article>

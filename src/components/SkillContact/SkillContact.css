@@ -46,7 +46,7 @@ overflow-y: scroll;
     padding-left: 25px;
 }
 .skillContact article + article ul li svg{
-    fill: #f9c31c;
+    fill: #e74c3c;
     position: absolute;
     left: 0px;
     top:0px;

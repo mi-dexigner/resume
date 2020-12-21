@@ -1,25 +1,31 @@
 .progress__container{
-    height: 20px;
+    height: 15px;
     width: 100%;
-    background-color: #e0e0de;
+    background-color: #383c40;
     border-radius: 50px;
     position: relative;
+    margin-bottom: 5px;
 }
 .progress__container h6{
     position: absolute;
-left: 8px;
-bottom: 0px;
-top: 0px;
+    left: 8px;
+    bottom: 0px;
+    top: 2px;
+    margin: auto 0px;
 }
 .filler__progress{
     height: 100%;
-    background-color:#f9c31c;
+    background-color:#e74c3c;
     border-radius: inherit;
-    text-align: right
+    text-align: right;
+    width:0px;
+    transition: all ease 1s;
+    transition-delay: 100ms;
   }
 
-.filler__progress label{
+.filler__progress span{
     padding: 4px;
     color: white;
+    font-size: 12px;
     font-weight: 700;
 }

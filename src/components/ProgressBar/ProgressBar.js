@@ -4,9 +4,9 @@ import './ProgressBar.css'
 const ProgressBar = ({title,completed }) => {
     return (
         <div className="progress__container">
-       <h6>{title}</h6>
-      <div className="filler__progress" style={{width: `${completed}`}}>
-        <span>{`${completed}%`}</span>
+       <h6 className="rale-font">{title}</h6>
+      <div className="filler__progress" style={{width: `${completed}%`}}>
+        <span className="robo-font">{`${completed}%`}</span>
       </div>
     </div>
     )

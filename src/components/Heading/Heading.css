@@ -1,5 +1,5 @@
 .heading{
-    background-color: #f9c31c;
+    background-color: #e74c3c;
     padding-left: 15px;
     font-size: clamp(1rem, 6vw, 1.7rem);
     display: inline-block;
@@ -15,7 +15,7 @@
 }
 .heading span:before{
     content: '';
-    background-color: #f9c31c;
+    background-color: #e74c3c;
     position: absolute;
     width: 5px;
     height: 100%;
