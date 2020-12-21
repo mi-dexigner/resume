@@ -3,19 +3,51 @@ background-color: #1f2122;
 padding-top: 15%;
 color: #ffffff;
 position: relative;
+overflow-y: scroll;
 }
-
+/* hide scrollbar for chrome,safaro and opera */
+.skillContact::-webkit-scrollbar{
+    display: none;
+}
+/* hide scrollbar for IR,Edge and firefox */
+.skillContact{
+   -ms-overflow-style:none;/*IE and Edge*/
+   scrollbar-width:none ;/*firefox*/
+}
 .skillContact article ul{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 2rem;
     list-style: none;
     padding: 20px 25px;
-    /*background:red;*/
+
+}
+.skillContact article ul li{
+    margin-bottom: 25px;
+    position: relative;
 }
 .skillContact article ul li h4{
     color:#ffffff;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+.skillContact article ul li h5{
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    font-size:  clamp(.5rem, 6vw, 0.9rem);
+}
+
+.skillContact article ul li a{text-decoration: none;color: #fff;}
+.skillContact article + article p{
+    font-size:clamp(.5rem, 6vw, .7rem);
+}
+.skillContact article + article ul li{
+    padding-left: 25px;
+}
+.skillContact article + article ul li svg{
+    fill: #f9c31c;
+    position: absolute;
+    left: 0px;
+    top:0px;
 }

@@ -1,6 +1,15 @@
 header{
     background-color: #f6f6f6;
 }
+/* hide scrollbar for chrome,safaro and opera */
+header::-webkit-scrollbar{
+    display: none;
+}
+/* hide scrollbar for IR,Edge and firefox */
+header{
+   -ms-overflow-style:none;/*IE and Edge*/
+   scrollbar-width:none ;/*firefox*/
+}
 header figure{
     overflow: hidden;
 }
@@ -13,7 +22,7 @@ header article{
 header article h2{
     color: #231f20;
     font-size: clamp(2.4rem, 6vw, 3.4rem);
-    line-height: 3.4rem;
+    line-height: 3rem;
     text-align: center;
 }
 

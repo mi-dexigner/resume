@@ -12,7 +12,7 @@ const NameTitle = () => {
             <h2 className="bebas-font">Muhammad Idrees</h2>
 <h5 className="bebas-font">Wordpress Developer</h5>
 <p className="robo-font">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaore et dolore magna aliqua. Ut enimminim veniam, quis nostrud exercitation ullamco laboris nutiquip Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaore et dolore magna aliqua. Ut enim minim veniam,  
+I’m a full-stack developer, trainer, and base in Karachi from Pakistan and working as a Senior staff for Ossols Pvt Ltd
 </p>
             </article>
         </header>

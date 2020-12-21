@@ -1,0 +1,25 @@
+.progress__container{
+    height: 20px;
+    width: 100%;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    position: relative;
+}
+.progress__container h6{
+    position: absolute;
+left: 8px;
+bottom: 0px;
+top: 0px;
+}
+.filler__progress{
+    height: 100%;
+    background-color:#f9c31c;
+    border-radius: inherit;
+    text-align: right
+  }
+
+.filler__progress label{
+    padding: 4px;
+    color: white;
+    font-weight: 700;
+}

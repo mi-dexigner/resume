@@ -1,10 +1,20 @@
 .educationWork{
-background-color: #222528;
-padding-top: 15%;
-color: #ffffff;
-position: relative;
+    background-color: #222528;
+    padding-top: 15%;
+    color: #ffffff;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 15%;
 }
-
+/* hide scrollbar for chrome,safaro and opera */
+.educationWork::-webkit-scrollbar{
+    display: none;
+}
+/* hide scrollbar for IR,Edge and firefox */
+.educationWork{
+   -ms-overflow-style:none;/*IE and Edge*/
+   scrollbar-width:none ;/*firefox*/
+}
 .educationWork ul{
     list-style: none;
     padding: 20px 25px;
@@ -34,7 +44,7 @@ position: relative;
 }
 
 .educationWork ul li h2 span{
-    font-size:  clamp(.2rem, 6vw, 0.8rem);;
+    font-size:  clamp(.2rem, 6vw, 0.8rem);
     font-weight: 700;
 }
 
