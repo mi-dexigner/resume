@@ -10,5 +10,6 @@
   .app{
     grid-template-columns: 1fr;
     overflow-y: scroll;
+    height:100%;
   } 
 }
